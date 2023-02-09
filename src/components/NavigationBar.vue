@@ -15,60 +15,62 @@
 				><span class="light-blue--text text--lighten-1"> K</span>
 			</v-btn>
 			<v-spacer></v-spacer>
-			<v-hover v-slot="{ hover }">
-				<v-btn
-					href="https://github.com/vuetifyjs/vuetify/releases/latest"
-					target="_blank"
-					text
-					:color="hover ? 'blue' : 'white'">
-					Strona główna
-				</v-btn>
-			</v-hover>
-			<v-hover v-slot="{ hover }">
-				<v-btn
-					href="https://github.com/vuetifyjs/vuetify/releases/latest"
-					target="_blank"
-					text
-					:color="hover ? 'blue' : 'white'">
-					O nas
-				</v-btn>
-			</v-hover>
-			<v-hover v-slot="{ hover }">
-				<v-btn
-					href="https://github.com/vuetifyjs/vuetify/releases/latest"
-					target="_blank"
-					text
-					:color="hover ? 'blue' : 'white'">
-					Programy
-				</v-btn>
-			</v-hover>
-			<v-hover v-slot="{ hover }">
-				<v-btn
-					href="https://github.com/vuetifyjs/vuetify/releases/latest"
-					target="_blank"
-					text
-					:color="hover ? 'blue' : 'white'">
-					Zarząd
-				</v-btn>
-			</v-hover>
-			<v-hover v-slot="{ hover }">
-				<v-btn
-					href="https://github.com/vuetifyjs/vuetify/releases/latest"
-					target="_blank"
-					text
-					:color="hover ? 'blue' : 'white'">
-					Rekrutacja
-				</v-btn>
-			</v-hover>
-			<v-hover v-slot="{ hover }">
-				<v-btn
-					href="https://github.com/vuetifyjs/vuetify/releases/latest"
-					target="_blank"
-					text
-					:color="hover ? 'blue' : 'white'">
-					Kontakt
-				</v-btn>
-			</v-hover>
+			<div class="hidden-md-and-down">
+				<v-hover v-slot="{ hover }">
+					<v-btn
+						href="https://github.com/vuetifyjs/vuetify/releases/latest"
+						target="_blank"
+						text
+						:color="hover ? 'blue' : 'white'">
+						Strona główna
+					</v-btn>
+				</v-hover>
+				<v-hover v-slot="{ hover }">
+					<v-btn
+						href="https://github.com/vuetifyjs/vuetify/releases/latest"
+						target="_blank"
+						text
+						:color="hover ? 'blue' : 'white'">
+						O nas
+					</v-btn>
+				</v-hover>
+				<v-hover v-slot="{ hover }">
+					<v-btn
+						href="https://github.com/vuetifyjs/vuetify/releases/latest"
+						target="_blank"
+						text
+						:color="hover ? 'blue' : 'white'">
+						Programy
+					</v-btn>
+				</v-hover>
+				<v-hover v-slot="{ hover }">
+					<v-btn
+						href="https://github.com/vuetifyjs/vuetify/releases/latest"
+						target="_blank"
+						text
+						:color="hover ? 'blue' : 'white'">
+						Zarząd
+					</v-btn>
+				</v-hover>
+				<v-hover v-slot="{ hover }">
+					<v-btn
+						href="https://github.com/vuetifyjs/vuetify/releases/latest"
+						target="_blank"
+						text
+						:color="hover ? 'blue' : 'white'">
+						Rekrutacja
+					</v-btn>
+				</v-hover>
+				<v-hover v-slot="{ hover }">
+					<v-btn
+						href="https://github.com/vuetifyjs/vuetify/releases/latest"
+						target="_blank"
+						text
+						:color="hover ? 'blue' : 'white'">
+						Kontakt
+					</v-btn>
+				</v-hover>
+			</div>
 		</v-app-bar>
 
 		<v-navigation-drawer class="hidden-lg-and-up" app v-model="drawer" absolute temporary>
