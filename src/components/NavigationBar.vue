@@ -1,13 +1,13 @@
 <template>
 	<nav>
-		<v-app-bar color="dark" dark>
+		<v-app-bar app color="dark" dark>
 			<v-app-bar-nav-icon class="hidden-lg-and-up" @click="drawer = !drawer"></v-app-bar-nav-icon>
 			<v-btn target="_blank" text x-large>
 				<v-img
 					alt="Vuetify Logo"
 					class="shrink mr-2"
 					contain
-					src="../assets/cropped-ikona.png"
+					src="../assets/img/cropped-ikona.png"
 					transition="scale-transition"
 					width="40" />
 				Telewizja <span class="lime--text text--lighter-2"> S</span
