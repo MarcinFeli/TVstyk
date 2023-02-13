@@ -1,7 +1,8 @@
 <template>
 	<v-app>
-    <NavigationBar />
-    <v-main>
+		<NavigationBar />
+		<v-main>
+			<HeaderScreen />
 			<HelloWorld />
 		</v-main>
 	</v-app>
@@ -10,6 +11,7 @@
 <script>
 import HelloWorld from './components/HelloWorld'
 import NavigationBar from './components/NavigationBar'
+import HeaderScreen from './components/HeaderScreen.vue'
 
 export default {
 	name: 'App',
@@ -17,6 +19,7 @@ export default {
 	components: {
 		HelloWorld,
 		NavigationBar,
+		HeaderScreen,
 	},
 
 	data: () => {},
