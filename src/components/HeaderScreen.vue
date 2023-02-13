@@ -1,5 +1,5 @@
 <template>
-	<div id="header" height="auto" class="hero-img d-flex justify-center align-center flex-column">
+	<div id="header" height="auto" class="header hero-img d-flex justify-center align-center flex-column">
 		<div class="hero-shadow"></div>
 		<div class="text text-center px-1 d-flex flex-column align-center justify-center">
 			<h1 class="white--text text-h3 text-uppercase mb-5">Zapraszamy do naszej ekipy!</h1>
@@ -29,6 +29,9 @@ export default {
 }
 </script>
 <style lang="scss">
+.header {
+	scroll-margin: 75px;
+}
 .hero-img {
 	position: relative;
 	height: 95vh;

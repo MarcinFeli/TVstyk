@@ -1,10 +1,10 @@
 <template>
 	<section id="administration" class="administration">
-		<h1 class="text-h4 font-weight-bold text-center mt-3 mb-3 text-bold text-uppercase">
-			Nasz zarząd
-			<div class="outline"></div>
-		</h1>
-		<div class="administration__img">
+        <h1  class="text-h4 font-weight-bold text-center mt-3 mb-3 text-bold text-uppercase">
+            Nasz zarząd
+            <div class="outline"></div>
+        </h1>
+        <div class="administration__img ">
 			<div class="administration__shadow"></div>
 			<div class="container d-flex align-center flex-wrap">
 				<v-card class="mx-auto mb-5" height="auto" max-width="350">
