@@ -6,6 +6,7 @@
 			<AboutUsSection />
 			<ProgramsSection />
 			<AdministrationSection />
+			<RecruitmentSection />
 			<HelloWorld />
 		</v-main>
 	</v-app>
@@ -18,6 +19,7 @@ import HeaderScreen from './components/HeaderScreen.vue'
 import AboutUsSection from './components/AboutUsSection.vue'
 import ProgramsSection from './components/ProgramsSection.vue'
 import AdministrationSection from './components/AdministrationSection.vue'
+import RecruitmentSection from './components/RecruitmentSection.vue'
 
 export default {
 	name: 'App',
@@ -29,6 +31,7 @@ export default {
 		AboutUsSection,
 		ProgramsSection,
 		AdministrationSection,
+		RecruitmentSection,
 	},
 
 	data: () => {},

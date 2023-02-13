@@ -1,6 +1,6 @@
 <template>
 	<section id="administration" class="administration">
-        <h1  class="text-h4 font-weight-bold text-center mt-3 mb-3 text-bold text-uppercase">
+        <h1  class="text-h4 font-weight-bold text-center mt-3 mb-3 text-uppercase">
             Nasz zarząd
             <div class="outline"></div>
         </h1>
@@ -12,7 +12,7 @@
 					<v-card-title class="justify-center"> Kamil Chmiel </v-card-title>
 					<v-card-subtitle class="text-center"> Prezez Zarządu Telewizji </v-card-subtitle>
 					<v-card-actions>
-						<v-btn text @click="show1 = !show1" class="orange--text"> O mnie... </v-btn>
+						<v-btn text @click="show1 = !show1" class="blue--text"> O mnie... </v-btn>
 						<v-spacer></v-spacer>
 					</v-card-actions>
 					<v-expand-transition>
@@ -31,7 +31,7 @@
 					<v-card-title class="justify-center"> Ewa Dawidowicz </v-card-title>
 					<v-card-subtitle class="text-center"> Redaktor Naczelna </v-card-subtitle>
 					<v-card-actions>
-						<v-btn text @click="show2 = !show2" class="orange--text"> O mnie... </v-btn>
+						<v-btn text @click="show2 = !show2" class="blue--text"> O mnie... </v-btn>
 						<v-spacer></v-spacer>
 					</v-card-actions>
 					<v-expand-transition>
@@ -50,7 +50,7 @@
 					<v-card-title class="justify-center"> Michał Adrjan </v-card-title>
 					<v-card-subtitle class="text-center"> Kierownik Techniczny </v-card-subtitle>
 					<v-card-actions>
-						<v-btn text @click="show3 = !show3" class="orange--text"> O mnie... </v-btn>
+						<v-btn text @click="show3 = !show3" class="blue--text"> O mnie... </v-btn>
 						<v-spacer></v-spacer>
 					</v-card-actions>
 					<v-expand-transition>
@@ -68,7 +68,7 @@
 					<v-card-title class="justify-center"> Michał Bocian </v-card-title>
 					<v-card-subtitle class="text-center"> Kierownik Promocji </v-card-subtitle>
 					<v-card-actions>
-						<v-btn text @click="show4 = !show4" class="orange--text"> O mnie... </v-btn>
+						<v-btn text @click="show4 = !show4" class="blue--text"> O mnie... </v-btn>
 						<v-spacer></v-spacer>
 					</v-card-actions>
 					<v-expand-transition>
