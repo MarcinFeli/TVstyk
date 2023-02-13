@@ -4,8 +4,8 @@
 			Programy
 			<div class="outline"></div>
 		</h1>
-		<div >
-			<v-carousel height="auto" hide-delimiters show-arrows="hover">
+		<div class="programs-box">
+			<v-carousel class="carousel-box" height="auto" hide-delimiters show-arrows="hover">
 				<v-carousel-item max-height="600" class="carousel" :src="item.src" v-for="(item, i) in items" :key="i">
 					<v-sheet class="sheet" dark color="rgba(0,0,0,0.7)" height="auto">
 						<div class="d-flex fill-height flex-column justify-center align-center">
@@ -58,6 +58,14 @@ export default {
 }
 </script>
 <style lang="scss">
+.programs-box {
+	display: flex;
+	justify-content: center;
+
+	.carousel-box {
+		width: 50%;
+	}
+}
 .programs {
 	scroll-margin: 75px;
 }
