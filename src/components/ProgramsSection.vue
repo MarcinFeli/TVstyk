@@ -60,7 +60,7 @@ export default {
 <style lang="scss">
 
 .programs {
-	scroll-margin: 75px;
+	scroll-margin: 69px;
 }
 .carousel {
 	position: relative;
