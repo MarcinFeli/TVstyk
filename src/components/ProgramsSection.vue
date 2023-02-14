@@ -1,11 +1,11 @@
 <template>
 	<section id="programs" class="programs">
-		<h1 class="text-h4 font-weight-bold text-center mt-3 mb-3 text-uppercase">
+		<h1 class="text-h5 text-sm-h4  font-weight-bold text-center mt-3 mb-3 text-uppercase">
 			Programy
 			<div class="outline"></div>
 		</h1>
-		<div class="programs-box">
-			<v-carousel class="carousel-box" height="auto" hide-delimiters show-arrows="hover">
+		<div class="programs-box ">
+			<v-carousel cycle class="carousel-box" height="auto" hide-delimiters show-arrows="hover">
 				<v-carousel-item max-height="600" class="carousel" :src="item.src" v-for="(item, i) in items" :key="i">
 					<v-sheet class="sheet" dark color="rgba(0,0,0,0.7)" height="auto">
 						<div class="d-flex fill-height flex-column justify-center align-center">
@@ -13,7 +13,7 @@
 								{{ item.title }}</v-card-title
 							>
 							<v-card-text class="text-center text-subtitle-1">{{ item.text }}</v-card-text>
-							<p></p>
+							
 						</div>
 					</v-sheet>
 				</v-carousel-item>
@@ -58,14 +58,7 @@ export default {
 }
 </script>
 <style lang="scss">
-.programs-box {
-	display: flex;
-	justify-content: center;
 
-	.carousel-box {
-		width: 50%;
-	}
-}
 .programs {
 	scroll-margin: 75px;
 }
@@ -81,5 +74,18 @@ export default {
 .text-h2 {
 	background-position: center;
 	background-size: cover;
+}
+
+@media (min-width: 600px) {
+	.programs-box {
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+@media (min-width: 800px) {
+	.programs-box {
+		width: 70%;
+		margin: 0 auto;
+	}
 }
 </style>

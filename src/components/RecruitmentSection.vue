@@ -1,6 +1,6 @@
 <template>
 	<section id="recruitment" class="recruitment">
-		<h1 class="text-h4 font-weight-bold text-center mt-3 mb-3 text-uppercase">
+		<h1 class="text-h5 text-sm-h4  font-weight-bold text-center mt-3 mb-3 text-uppercase">
 			Trwa rekrutacja
 			<div class="outline"></div>
 		</h1>
@@ -20,7 +20,7 @@
 							class="recruitment__text"
 							href="https://docs.google.com/forms/d/e/1FAIpQLSdVJdZfkrzKV9J3OsvoOlmE6UHDW_dNo5p2OydWiRyJ32dTQQ/closedform"
 							target="_blank">
-							Formularz kontaktowy
+							Formularz zgłoszeniowy
 						</a>
 					</p>
 				</v-col>
