@@ -27,7 +27,7 @@
 				</v-hover>
 				<v-hover v-slot="{ hover }">
 					<v-btn
-						href="https://github.com/vuetifyjs/vuetify/releases/latest"
+						@click="scroll"
 						target="_blank"
 						text
 						:color="hover ? 'blue' : 'white'">
@@ -122,10 +122,15 @@ export default {
 	name: 'NavigationBar',
 
 	data() {
+		function scroll() {
+			const aboutUs = document.getElementById('aboutus')
+			aboutUs.scrollIntoView({ behavior: 'smooth' })
+		}
 		return {
+			scroll,
 			drawer: false,
 		}
 	},
 }
 </script>
-<style lang=""></style>
+<style lang="scss"></style>
