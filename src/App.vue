@@ -4,6 +4,7 @@
 		<v-main>
 			<HeaderScreen />
 			<AboutUsSection />
+			<ProgramsSection />
 			<HelloWorld />
 		</v-main>
 	</v-app>
@@ -14,6 +15,7 @@ import HelloWorld from './components/HelloWorld'
 import NavigationBar from './components/NavigationBar'
 import HeaderScreen from './components/HeaderScreen.vue'
 import AboutUsSection from './components/AboutUsSection.vue'
+import ProgramsSection from './components/ProgramsSection.vue'
 
 export default {
 	name: 'App',
@@ -23,6 +25,7 @@ export default {
 		NavigationBar,
 		HeaderScreen,
 		AboutUsSection,
+		ProgramsSection,
 	},
 
 	data: () => {},
@@ -34,5 +37,12 @@ export default {
 
 v-app {
 	font-family: $body-font-family !important;
+}
+.outline {
+	text-align: center;
+	height: 3px;
+	width: 70px;
+	margin: 0 auto;
+	background-color: cornflowerblue;
 }
 </style>
