@@ -1,6 +1,6 @@
 <template>
 	<section id="aboutus" class="about-us">
-		<h1 class="text-h4 font-weight-bold text-center mt-3 mb-3 text-bold text-uppercase">
+		<h1 class="text-h5 text-sm-h4 font-weight-bold text-center mt-3 mb-3 text-uppercase">
 			Kim jesteśmy?
 			<div class="outline"></div>
 		</h1>
