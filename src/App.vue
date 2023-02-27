@@ -5,6 +5,7 @@
 			<HeaderScreen />
 			<AboutUsSection />
 			<ProgramsSection />
+			<AdministrationSection />
 			<HelloWorld />
 		</v-main>
 	</v-app>
@@ -16,6 +17,7 @@ import NavigationBar from './components/NavigationBar'
 import HeaderScreen from './components/HeaderScreen.vue'
 import AboutUsSection from './components/AboutUsSection.vue'
 import ProgramsSection from './components/ProgramsSection.vue'
+import AdministrationSection from './components/AdministrationSection.vue'
 
 export default {
 	name: 'App',
@@ -26,6 +28,7 @@ export default {
 		HeaderScreen,
 		AboutUsSection,
 		ProgramsSection,
+		AdministrationSection,
 	},
 
 	data: () => {},

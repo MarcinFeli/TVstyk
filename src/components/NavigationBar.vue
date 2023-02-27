@@ -17,40 +17,16 @@
 			<v-spacer></v-spacer>
 			<div class="hidden-md-and-down">
 				<v-hover v-slot="{ hover }">
-					<v-btn
-						href="https://github.com/vuetifyjs/vuetify/releases/latest"
-						target="_blank"
-						text
-						:color="hover ? 'blue' : 'white'">
-						Strona główna
-					</v-btn>
+					<v-btn @click="home" target="_blank" text :color="hover ? 'blue' : 'white'"> Strona główna </v-btn>
 				</v-hover>
 				<v-hover v-slot="{ hover }">
-					<v-btn
-						@click="scroll"
-						target="_blank"
-						text
-						:color="hover ? 'blue' : 'white'">
-						O nas
-					</v-btn>
+					<v-btn @click="scrollAboutUs" target="_blank" text :color="hover ? 'blue' : 'white'"> O nas </v-btn>
 				</v-hover>
 				<v-hover v-slot="{ hover }">
-					<v-btn
-						href="https://github.com/vuetifyjs/vuetify/releases/latest"
-						target="_blank"
-						text
-						:color="hover ? 'blue' : 'white'">
-						Programy
-					</v-btn>
+					<v-btn @click="scrollPrograms" target="_blank" text :color="hover ? 'blue' : 'white'"> Programy </v-btn>
 				</v-hover>
 				<v-hover v-slot="{ hover }">
-					<v-btn
-						href="https://github.com/vuetifyjs/vuetify/releases/latest"
-						target="_blank"
-						text
-						:color="hover ? 'blue' : 'white'">
-						Zarząd
-					</v-btn>
+					<v-btn @click="scrollAdministartion" target="_blank" text :color="hover ? 'blue' : 'white'"> Zarząd </v-btn>
 				</v-hover>
 				<v-hover v-slot="{ hover }">
 					<v-btn
@@ -122,12 +98,27 @@ export default {
 	name: 'NavigationBar',
 
 	data() {
-		function scroll() {
+		function scrollAboutUs() {
 			const aboutUs = document.getElementById('aboutus')
 			aboutUs.scrollIntoView({ behavior: 'smooth' })
 		}
+		function home() {
+			const start = document.getElementById('header')
+			start.scrollIntoView({ behavior: 'smooth' })
+		}
+		function scrollPrograms() {
+			const programs = document.getElementById('programs')
+			programs.scrollIntoView({ behavior: 'smooth' })
+		}
+		function scrollAdministartion() {
+			const admin = document.getElementById('administration')
+			admin.scrollIntoView({ behavior: 'smooth' })
+		}
 		return {
-			scroll,
+			home,
+			scrollAboutUs,
+			scrollPrograms,
+			scrollAdministartion,
 			drawer: false,
 		}
 	},

@@ -4,10 +4,10 @@
 			Kim jesteśmy?
 			<div class="outline"></div>
 		</h1>
-		<div class="about-us__img">
+		<div height="auto" class="about-us__img">
 			<div class="about-us__shadow"></div>
 			<div class="about-us__text white--text">
-				<p class="text-center font-weight-bold body-1" height="auto">
+				<p class="text-center font-weight-bold body-1">
 					Zespół Telewizji Studenckiej Politechniki Wrocławskiej STYK tworzą studenci różnych uczelni. Łączy nas wspólna
 					idea tworzenia jedynego takiego medium, gdzie możemy razem się rozwijać. Nasza siedziba to mały Stykowy
 					budynek przy ul. Wittiga 8A. Jesteśmy otwarci na Wasze pomysły, kreatywność i aktywność. Wszystkich chętnych
@@ -31,9 +31,8 @@ export default {
 <style lang="scss">
 @import '../assets/scss/variables.scss';
 .about-us {
-	scroll-margin: 67px;
+	scroll-margin: 75px;
 	&__img {
-		height: 80vh;
 		position: relative;
 		display: flex;
 		justify-content: center;
@@ -59,12 +58,8 @@ export default {
 		z-index: 2;
 	}
 	&__video {
-		height: 100%;
+		height: 60vh;
 		width: 100%;
 	}
-	
-
-	
 }
-
 </style>
