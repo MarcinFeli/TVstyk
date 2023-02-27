@@ -6,7 +6,7 @@
 		</h1>
 		<div class="administration__img">
 			<div class="administration__shadow"></div>
-			<div class="container d-flex align-center flex-wrap">
+			<div class="container d-flex align-start flex-wrap">
 				<v-hover v-slot="{ hover }">
 					<v-card class="mx-auto mb-5" height="auto" width="300">
 						<v-img :class="hover ? 'zoom' : ''" src="../assets/img/styk_zarząd_Kamil.jpg" height="auto" cover></v-img>
@@ -117,7 +117,7 @@ export default {
 	}
 }
 .administration {
-	scroll-margin: 75px;
+	scroll-margin: 69px;
 	&__img {
 		position: relative;
 		padding: 20px 0;

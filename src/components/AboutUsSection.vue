@@ -31,7 +31,7 @@ export default {
 <style lang="scss">
 @import '../assets/scss/variables.scss';
 .about-us {
-	scroll-margin: 75px;
+	scroll-margin: 69px;
 	&__img {
 		position: relative;
 		display: flex;

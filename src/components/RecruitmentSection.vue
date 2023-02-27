@@ -1,6 +1,6 @@
 <template>
 	<section id="recruitment" class="recruitment">
-		<h1 class="text-h5 text-sm-h4  font-weight-bold text-center mt-3 mb-3 text-uppercase">
+		<h1 class="text-h5 text-sm-h4 font-weight-bold text-center mt-3 mb-3 text-uppercase">
 			Trwa rekrutacja
 			<div class="outline"></div>
 		</h1>
@@ -8,7 +8,7 @@
 			<div class="recruitment__shadow"></div>
 			<div class="container d-flex justify-center">
 				<v-col cols="9" class="text-center recruitment__text">
-					<p class="font-weight-regular py-3 font-weight-bold text-md-h6 text-sm-subtitle-1 white--text">
+					<p class="font-weight-regular py-3  text-md-h6 text-sm-subtitle-1 white--text">
 						Jesteśmy Telewizją Politechniki Wrocławskiej, do której zapraszamy wszystkich studentów, także z innych
 						uczelni. Realizujemy wiele projektów – reportaże, programy publicystyczne, rozrywkowe, informacyjne, live'y
 						i wiele więcej. Szkolimy dziennikarzy, operatorów kamer, realizatorów telewizyjnych, montażystów i uczymy
@@ -35,6 +35,7 @@ export default {
 </script>
 <style lang="scss">
 .recruitment {
+	scroll-margin: 69px;
 	&__bg-img {
 		position: relative;
 		background-image: url('../assets/img/header.jpg');

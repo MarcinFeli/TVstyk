@@ -7,31 +7,37 @@
 			<ProgramsSection />
 			<AdministrationSection />
 			<RecruitmentSection />
+			<ContactSection />
 			<HelloWorld />
 		</v-main>
+		<v-footer dark
+			><v-col class="text-center" cols="12">
+				<strong > &copy; {{ new Date().getFullYear() }} | Telewizja Styk</strong>
+			</v-col></v-footer
+		>
 	</v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
 import NavigationBar from './components/NavigationBar'
 import HeaderScreen from './components/HeaderScreen.vue'
 import AboutUsSection from './components/AboutUsSection.vue'
 import ProgramsSection from './components/ProgramsSection.vue'
 import AdministrationSection from './components/AdministrationSection.vue'
 import RecruitmentSection from './components/RecruitmentSection.vue'
+import ContactSection from './components/ContactSection.vue'
 
 export default {
 	name: 'App',
 
 	components: {
-		HelloWorld,
 		NavigationBar,
 		HeaderScreen,
 		AboutUsSection,
 		ProgramsSection,
 		AdministrationSection,
 		RecruitmentSection,
+		ContactSection,
 	},
 
 	data: () => {},
